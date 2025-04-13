@@ -1,0 +1,17 @@
+{
+  "project_name": "ThreadParser",
+  "project_folder": "ThreadParser_FINAL",
+  "env_file": ".env",
+  "env_template": ".env.template.threadparser",
+  "notion_database_id": "YOUR_NOTION_DATABASE_ID_HERE",
+  "primary_scripts": [
+    "validate_env.py",
+    "venv_check.py",
+    "notion_sync_threadparser.py",
+    "project_guard.py"
+  ],
+  "version_tracking": {
+    "latest_tag": "v1.1.3",
+    "last_verified_env": ".env"
+  }
+}
